@@ -62,7 +62,7 @@ int main() {
         cin >> addMore;
     } while (addMore == 'y' || addMore == 'Y');
 
-    string filename = "juzer.txt";
+    string filename = "uniquick.txt";
     saveData(products, filename);
 
     return 0;
